@@ -14,6 +14,8 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @ExperimentalPagingApi
 @AndroidEntryPoint
+
+
 class MainActivity : ComponentActivity() {
     @SuppressLint("MissingSuperCall")
     override fun onCreate(savedInstanceState: Bundle?) {
